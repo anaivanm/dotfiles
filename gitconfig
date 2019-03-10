@@ -49,3 +49,8 @@
 [user]
 	email = ana.ivan.m@gmail.com
 	name = ana ivan
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
