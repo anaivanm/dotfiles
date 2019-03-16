@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = ana.ivan.m@gmail.com
-	name = ana ivan
+	name = Ana Ivan
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
